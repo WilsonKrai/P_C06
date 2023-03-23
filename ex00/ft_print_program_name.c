@@ -6,7 +6,7 @@
 /*   By: wteles-d <wteles-d@student.42lisboa.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/22 18:47:22 by wteles-d          #+#    #+#             */
-/*   Updated: 2023/03/22 19:06:37 by wteles-d         ###   ########.fr       */
+/*   Updated: 2023/03/23 14:57:33 by wteles-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ int	main(int argc, char **argv)
 	i = 0;
 	if (argc > 0)
 	{
-		while(argv[0][i] != '\0')
+		while (argv[0][i] != '\0')
 		{
 			write(1, &argv[0][i], 1);
 			i++;
